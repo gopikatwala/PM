@@ -1,3 +1,4 @@
+##############  Server Configuration Commands ##############
 add|p|MLS|c|PM
 add|prop|type=mls|p|MLS
 add|prop|levels=Secret,Top secret|p|MLS
@@ -324,16 +325,16 @@ asg|s|16A11DA2|b|Accts Pbl witems
 asg|s|18E9B035|b|Contracting witems
 asg|s|B3FD2394|b|Accts Rcv witems
 asg|s|D6F23181|b|Approved Orders
-add|ob|poForm|File|no|pmvm|C:\PMWork\poForm.wkf|b|Forms
+add|ob|poForm|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\poForm.wkf|b|Forms
 asg|s|D7048A1C|b|Forms
-add|ob|mrec33|File|no|pmvm|C:\PMWork\mrec33.rtf|b|Med Records
-add|ob|mrec22|File|no|pmvm|C:\PMWork\mrec22.rtf|b|Med Records
-add|ob|mrec11|File|no|pmvm|C:\PMWork\mrec11.rtf|b|Med Records
-add|ob|mrec3|File|no|pmvm|C:\PMWork\mrec3.doc|b|Med Records
-add|ob|mrec2|File|no|pmvm|C:\PMWork\mrec2.doc|b|Med Records
-add|ob|mrec1|File|no|pmvm|C:\PMWork\mrec1.doc|b|Med Records
-add|ob|mrec4|File|no|pmvm|C:\PMWork\mrec4.doc|b|Med Records
-add|ob|mrec5|File|no|pmvm|C:\PMWork\mrec5.rtf|b|Med Records
+add|ob|mrec33|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec33.rtf|b|Med Records
+add|ob|mrec22|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec22.rtf|b|Med Records
+add|ob|mrec11|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec11.rtf|b|Med Records
+add|ob|mrec3|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec3.doc|b|Med Records
+add|ob|mrec2|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec2.doc|b|Med Records
+add|ob|mrec1|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec1.doc|b|Med Records
+add|ob|mrec4|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec4.doc|b|Med Records
+add|ob|mrec5|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\mrec5.rtf|b|Med Records
 asg|s|945358F8|b|Med Records
 add|s|5C59BE03|oc|Ignored|b|Med Records
 add|op|File write|s|5C59BE03
@@ -428,10 +429,10 @@ add|op|File read|s|1698910F
 add|s|BDB987A8|oc|Ignored|a|Alicia
 add|op|File read|s|BDB987A8
 add|u|exporter|fn|Exporter|a|Exporter
-add|ob|FC15B612|File|no|pmvm|C:\PMWork\FC15B612.txt|b|12345678
-add|ob|C9CFE6DE|File|no|pmvm|C:\PMWork\C9CFE6DE.txt|b|12345678
-add|ob|30A44CB5|File|no|pmvm|C:\PMWork\30A44CB5.txt|b|12345678
-add|ob|237D8FA7|File|no|pmvm|C:\PMWork\237D8FA7.txt|b|12345678
+add|ob|FC15B612|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\FC15B612.txt|b|12345678
+add|ob|C9CFE6DE|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\C9CFE6DE.txt|b|12345678
+add|ob|30A44CB5|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\30A44CB5.txt|b|12345678
+add|ob|237D8FA7|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\237D8FA7.txt|b|12345678
 asg|s|39D1BFC8|b|katie witems
 asg|s|E2327C18|b|charlie witems
 asg|s|FE4A7080|b|bob witems
@@ -449,7 +450,7 @@ add|b|Charlie recipes|b|SharedContainer
 asg|b|mrec4|b|Bob Med Records
 asg|b|mrec5|b|Bob Med Records
 add|b|8E094FF2|b|Bob Med Records
-add|ob|prop1|File|no|pmvm|C:\PMWork\prop1.rtf|b|Proposals
+add|ob|prop1|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\prop1.rtf|b|Proposals
 asg|b|mrec11|b|Alice Med Records
 asg|b|mrec22|b|Alice Med Records
 asg|b|mrec33|b|Alice Med Records
@@ -500,32 +501,32 @@ asg|s|F6CCB92B|b|AcctName
 asg|b|FC15B612|b|AcctNum
 asg|s|AD179DE1|b|AcctNum
 asg|s|581A03EB|b|AcctNum
-add|ob|E4B48FB1|File|no|pmvm|C:\PMWork\E4B48FB1.rtf|b|PatTreatment
-add|ob|E294203A|File|no|pmvm|C:\PMWork\E294203A.rtf|b|PatTreatment
+add|ob|E4B48FB1|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\E4B48FB1.rtf|b|PatTreatment
+add|ob|E294203A|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\E294203A.rtf|b|PatTreatment
 asg|s|6DB75F58|b|PatTreatment
 asg|s|6523425D|b|PatTreatment
-add|ob|53C1525D|File|no|pmvm|C:\PMWork\53C1525D.rtf|b|PatDiag
-add|ob|D9971E4A|File|no|pmvm|C:\PMWork\D9971E4A.rtf|b|PatDiag
+add|ob|53C1525D|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\53C1525D.rtf|b|PatDiag
+add|ob|D9971E4A|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\D9971E4A.rtf|b|PatDiag
 asg|s|ADFA7E54|b|PatDiag
 asg|s|D36773F1|b|PatDiag
-add|ob|33EAA2DF|File|no|pmvm|C:\PMWork\33EAA2DF.rtf|b|PatSymptoms
-add|ob|FB40D908|File|no|pmvm|C:\PMWork\FB40D908.rtf|b|PatSymptoms
+add|ob|33EAA2DF|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\33EAA2DF.rtf|b|PatSymptoms
+add|ob|FB40D908|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\FB40D908.rtf|b|PatSymptoms
 asg|s|C29A03C7|b|PatSymptoms
 asg|s|4D87458D|b|PatSymptoms
-add|ob|E9663596|File|no|pmvm|C:\PMWork\E9663596.rtf|b|PatAllergies
-add|ob|7002DA15|File|no|pmvm|C:\PMWork\7002DA15.rtf|b|PatAllergies
+add|ob|E9663596|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\E9663596.rtf|b|PatAllergies
+add|ob|7002DA15|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\7002DA15.rtf|b|PatAllergies
 asg|s|4E95A4D5|b|PatAllergies
 asg|s|9CD521EB|b|PatAllergies
 asg|s|09B8AA6A|b|PatAllergies
-add|ob|6411940B|File|no|pmvm|C:\PMWork\6411940B.doc|b|PatHistory
-add|ob|FE2CA75B|File|no|pmvm|C:\PMWork\FE2CA75B.doc|b|PatHistory
+add|ob|6411940B|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\6411940B.doc|b|PatHistory
+add|ob|FE2CA75B|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\FE2CA75B.doc|b|PatHistory
 asg|s|53811547|b|PatHistory
 asg|s|7F91A035|b|PatHistory
-add|ob|39FA5BA8|File|no|pmvm|C:\PMWork\39FA5BA8.bio|b|PatBio
-add|ob|4902BD22|File|no|pmvm|C:\PMWork\4902BD22.bio|b|PatBio
+add|ob|39FA5BA8|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\39FA5BA8.bio|b|PatBio
+add|ob|4902BD22|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\4902BD22.bio|b|PatBio
 asg|s|0BC643D6|b|PatBio
-add|ob|58423CA7|File|no|pmvm|C:\PMWork\58423CA7.pid|b|PatId
-add|ob|9435D63E|File|no|pmvm|C:\PMWork\9435D63E.pid|b|PatId
+add|ob|58423CA7|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\58423CA7.pid|b|PatId
+add|ob|9435D63E|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\9435D63E.pid|b|PatId
 asg|s|0B29B5B1|b|PatId
 asg|s|233650FB|b|PatId
 asg|s|AD72CEA8|b|PatId
@@ -539,8 +540,8 @@ asg|s|94E4DFD4|b|charlie INBOX
 add|b|bob wINBOX|b|bob INBOX
 add|prop|winboxof=bob|b|bob wINBOX
 asg|s|F7D14F3F|b|bob INBOX
-add|ob|Italian recipes|File|no|pmvm|C:\PMWork\Italian recipes.rtf|b|Charlie recipes
-add|ob|Chili recipes|File|no|pmvm|C:\PMWork\Chili recipes.rtf|b|Charlie recipes
+add|ob|Italian recipes|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\Italian recipes.rtf|b|Charlie recipes
+add|ob|Chili recipes|File|no|[SERVER_COMPUTER_NAME]|C:\pmworkArea\Chili recipes.rtf|b|Charlie recipes
 asg|b|9435D63E|b|8E094FF2
 asg|b|4902BD22|b|8E094FF2
 asg|b|7002DA15|b|8E094FF2
@@ -565,33 +566,6 @@ asg|s|15068202|b|alice wINBOX
 asg|s|D041A88C|b|charlie wINBOX
 asg|s|B12DFFDD|b|bob wINBOX
 
-add|app|Admin|C:\PM\pm1.4\dist\pm-admin-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.admin.PmAdmin|Admin >> |pmvm
-add|app|Rich Text Editor|C:\PM\pm1.4\dist\pm-app-rtf-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.rtf.RTFEditor|RTF Editor >> |pmvm
-add|app|Workflow Editor|C:\PM\pm1.4\dist\pm-app-wkf-pdf-1.5.jar;C:\PM\pm1.4\dist\pm-app-pdf-view-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.workflow.WorkflowPDF|Workflow Editor >>|pmvm
-add|app|PDF Viewer|C:\PM\pm1.4\dist\pm-app-pdf-view-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.pdfviewer.PDFViewer|PDF Viewer >> |pmvm
-add|app|e-grant|C:\PM\pm1.4\dist\pm-app-grant-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.grantor.Grantor|e-grant >> |pmvm
-add|app|Exporter|C:\PM\pm1.4\dist\pm-exporter-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.exporter.Exporter|Exporter >> |pmvm
-add|app|Open Office|C:\PM\pm1.4\dist\pm-app-openoffice-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar;C:\Program Files\OpenOffice.org 3\Basis\program\classes\unoil.jar;C:\Program Files\OpenOffice.org 3\URE\java\juh.jar;C:\Program Files\OpenOffice.org 3\URE\java\jurt.jar;C:\Program Files\OpenOffice.org 3\URE\java\ridl.jar;C:\Program Files\OpenOffice.org 3\program|gov.nist.csd.pm.application.openoffice.OfficeLauncher|Open Office >>|pmvm
-add|app|Microsoft Office Launcher|C:\PM\pm1.4\dist\pm-app-msoffice-1.5.jar|gov.nist.csd.pm.application.office.MSOfficeLauncher|MS Office >>|pmvm
-add|app|Med-Rec|C:\PM\pm1.4\dist\pm-app-medrec-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.medrec.MREditor|Med-Rec >>|pmvm
-add|app|Acct-Rec|C:\PM\pm1.4\dist\pm-app-acctrec-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.acctrec.AcctEditor|Acct-Rec >>|pmvm
-add|app|Workflow Old|C:\PM\pm1.4\dist\pm-app-wkf-old-1.5.jar;C:\PM\pm1.4\dist\pm-commons-1.5.jar;C:\PM\pm1.4\lib\activation-1.1.jar;C:\PM\pm1.4\lib\aopalliance-1.0.jar;C:\PM\pm1.4\lib\asm-3.1.jar;C:\PM\pm1.4\lib\bcmail-jdk15-1.44.jar;C:\PM\pm1.4\lib\bcprov-jdk15-1.44.jar;C:\PM\pm1.4\lib\cglib-2.2.1-v20090111.jar;C:\PM\pm1.4\lib\colorchooser-1.0.jar;C:\PM\pm1.4\lib\commons-logging-1.1.1.jar;C:\PM\pm1.4\lib\fontbox-1.6.0.jar;C:\PM\pm1.4\lib\guava-r09.jar;C:\PM\pm1.4\lib\guice-3.0.jar;C:\PM\pm1.4\lib\icu4j-3.8.jar;C:\PM\pm1.4\lib\jarjar-1.0.jar;C:\PM\pm1.4\lib\javax.inject-1.jar;C:\PM\pm1.4\lib\javax.mail-1.4.4.jar;C:\PM\pm1.4\lib\jempbox-1.6.0.jar;C:\PM\pm1.4\lib\jfontchooser-1.0.5-pm.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm-platform.jar;C:\PM\pm1.4\lib\jna-3.2.7-pm.jar;C:\PM\pm1.4\lib\jsr305-1.3.7.jar;C:\PM\pm1.4\lib\miglayout-3.7.3.1-swing.jar;C:\PM\pm1.4\lib\pdfbox-1.6.0.jar;C:\PM\pm1.4\lib\wrapper-3.2.3.jar;C:\PM\pm1.4\lib\wrapper.jar|gov.nist.csd.pm.application.oldworkflow.Wkflow|Workflow Old >>|pmvm
-
-
-add|ks|C:\PM\pm1.4\keystores\superKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|super
-
-add|ks|C:\PM\pm1.4\keystores\aliceKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|alice
-
-add|ks|C:\PM\pm1.4\keystores\katieKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|katie
-
-add|ks|C:\PM\pm1.4\keystores\daveKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|dave
-
-add|ks|C:\PM\pm1.4\keystores\bobKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|bob
-
-add|ks|C:\PM\pm1.4\keystores\charlieKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|charlie
-
-add|ks|C:\PM\pm1.4\keystores\exporterKeystore|C:\PM\pm1.4\keystores\clientTruststore|h|pmvm|u|exporter
-
 add|tpl|acctTpl|conts|AcctNum:AcctName:AcctSsn:AcctAddr
 add|key|acctnum|tpl|acctTpl
 add|tpl|mrecTpl|conts|PatId:PatBio:PatAllergies:PatHistory:PatSymptoms:PatDiag:PatTreatment
@@ -615,9 +589,38 @@ add|key|last name=Roberts|b|8E094FF2
 add|key|ssn=124456789|b|8E094FF2
 add|key|mrn=0DAB52862379|b|8E094FF2
 
-add|prop|alice.signature.file|v|C:\PM\pm1.4\resources\signatures\alice.jpg
-add|prop|bob.signature.file|v|C:\PM\pm1.4\resources\signatures\bob.jpg
-add|prop|charlie.signature.file|v|C:\PM\pm1.4\resources\signatures\charlie.jpg
-add|prop|dave.signature.file|v|C:\PM\pm1.4\resources\signatures\dave.jpg
-add|prop|gavrila.signature.file|v|C:\PM\pm1.4\resources\signatures\gavrila.jpg
-add|prop|katie.signature.file|v|C:\PM\pm1.4\resources\signatures\katie.jpg
+add|prop|alice.signature.file|v|C:\PM\resources\signatures\alice.jpg
+add|prop|bob.signature.file|v|C:\PM\resources\signatures\bob.jpg
+add|prop|charlie.signature.file|v|C:\PM\resources\signatures\charlie.jpg
+add|prop|dave.signature.file|v|C:\PM\resources\signatures\dave.jpg
+add|prop|gavrila.signature.file|v|C:\PM\resources\signatures\gavrila.jpg
+add|prop|katie.signature.file|v|C:\PM\resources\signatures\katie.jpg
+
+##############  Client Configuration Commands ##############
+add|app|Admin|C:\PM\dist\pm-admin-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.admin.PmAdmin|Admin >> |[CLIENT_COMPUTER_NAME]
+add|app|Rich Text Editor|C:\PM\dist\pm-app-rtf-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.rtf.RTFEditor|RTF Editor >> |[CLIENT_COMPUTER_NAME]
+add|app|Workflow Editor|C:\PM\dist\pm-app-wkf-pdf-1.5.jar;C:\PM\dist\pm-app-pdf-view-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.workflow.WorkflowPDF|Workflow Editor >>|[CLIENT_COMPUTER_NAME]
+add|app|PDF Viewer|C:\PM\dist\pm-app-pdf-view-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.pdfviewer.PDFViewer|PDF Viewer >> |[CLIENT_COMPUTER_NAME]
+add|app|e-grant|C:\PM\dist\pm-app-grant-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.grantor.Grantor|e-grant >> |[CLIENT_COMPUTER_NAME]
+add|app|Exporter|C:\PM\dist\pm-exporter-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.exporter.Exporter|Exporter >> |[CLIENT_COMPUTER_NAME]
+add|app|Open Office|C:\PM\dist\pm-app-openoffice-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar;C:\Program Files (x86)\OpenOffice.org 3\Basis\program\classes\unoil.jar;C:\Program Files (x86)\OpenOffice.org 3\URE\java\juh.jar;C:\Program Files (x86)\OpenOffice.org 3\URE\java\jurt.jar;C:\Program Files (x86)\OpenOffice.org 3\URE\java\ridl.jar;C:\Program Files (x86)\OpenOffice.org 3\program|gov.nist.csd.pm.application.openoffice.OfficeLauncher|Open Office >>|[CLIENT_COMPUTER_NAME]
+add|app|Microsoft Office Launcher|C:\PM\dist\pm-app-msoffice-1.5.jar|gov.nist.csd.pm.application.office.MSOfficeLauncher|MS Office >>|[CLIENT_COMPUTER_NAME]
+add|app|Med-Rec|C:\PM\dist\pm-app-medrec-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.medrec.MREditor|Med-Rec >>|[CLIENT_COMPUTER_NAME]
+add|app|Acct-Rec|C:\PM\dist\pm-app-acctrec-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.acctrec.AcctEditor|Acct-Rec >>|[CLIENT_COMPUTER_NAME]
+add|app|Workflow Old|C:\PM\dist\pm-app-wkf-old-1.5.jar;C:\PM\dist\pm-commons-1.5.jar;C:\PM\lib\activation-1.1.jar;C:\PM\lib\aopalliance-1.0.jar;C:\PM\lib\asm-3.1.jar;C:\PM\lib\bcmail-jdk15-1.44.jar;C:\PM\lib\bcprov-jdk15-1.44.jar;C:\PM\lib\cglib-2.2.1-v20090111.jar;C:\PM\lib\colorchooser-1.0.jar;C:\PM\lib\commons-logging-1.1.1.jar;C:\PM\lib\fontbox-1.6.0.jar;C:\PM\lib\guava-r09.jar;C:\PM\lib\guice-3.0.jar;C:\PM\lib\icu4j-3.8.jar;C:\PM\lib\jarjar-1.0.jar;C:\PM\lib\javax.inject-1.jar;C:\PM\lib\javax.mail-1.4.4.jar;C:\PM\lib\jempbox-1.6.0.jar;C:\PM\lib\jfontchooser-1.0.5-pm.jar;C:\PM\lib\jna-3.2.7-pm-platform.jar;C:\PM\lib\jna-3.2.7-pm.jar;C:\PM\lib\jsr305-1.3.7.jar;C:\PM\lib\miglayout-3.7.3.1-swing.jar;C:\PM\lib\pdfbox-1.6.0.jar;C:\PM\lib\wrapper-3.2.3.jar;C:\PM\lib\wrapper.jar|gov.nist.csd.pm.application.oldworkflow.Wkflow|Workflow Old >>|[CLIENT_COMPUTER_NAME]
+
+
+add|ks|C:\PM\keystores\superKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|super
+
+add|ks|C:\PM\keystores\aliceKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|alice
+
+add|ks|C:\PM\keystores\katieKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|katie
+
+add|ks|C:\PM\keystores\daveKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|dave
+
+add|ks|C:\PM\keystores\bobKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|bob
+
+add|ks|C:\PM\keystores\charlieKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|charlie
+
+add|ks|C:\PM\keystores\exporterKeystore|C:\PM\keystores\clientTruststore|h|[CLIENT_COMPUTER_NAME]|u|exporter
+
